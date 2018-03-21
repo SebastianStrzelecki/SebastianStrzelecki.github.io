@@ -1,0 +1,46 @@
+#glowny{
+    width: 100%;
+    background-image: url("http://www.apicius.es/wp-content/uploads/2012/07/IMG-20120714-009211.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 768px;
+    overflow: hidden;
+    position: relative;
+}
+#gora{
+    width: 100%;
+    background-color: blue;
+    height: 0%;
+    animation: gora;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+}
+#dol{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
+    animation: dol;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes gora{
+    
+   
+    100%{
+      height: 50%;
+    }
+}
+@keyframes dol{
+    
+    0%{
+        top:100%;
+    }
+    100%{
+      top:50%;
+       
+    }
+}

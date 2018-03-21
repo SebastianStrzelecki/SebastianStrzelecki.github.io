@@ -1,0 +1,57 @@
+body {
+    margin 0px;
+    width: 600px;
+    color: white;
+}
+
+form {
+    background-color: #213b50;
+    padding: 25px 10px;
+}
+
+
+input {
+    background-color: #2b4a64;
+    color:white;
+    border:0px;
+    
+}
+input:focus{
+    border: 2px solid #ffffff;
+    outline: 0px;
+}
+
+select {
+    background-color: #2b4a64;
+    border: 0;
+    color: white;
+    outline: 0px;
+}
+
+textarea {
+    background-color: #2b4a64;
+    border: 0;
+    color:white;
+    outline: 0px;
+}
+
+label {
+    display: block;
+    padding: 5px 0px;
+
+}
+
+input[type="submit"] {
+    background-color: limegreen;
+    height: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    border: 0px;
+    box-sizing: border-box;
+    width: 20%;
+    font-size: 20px;
+
+}
+

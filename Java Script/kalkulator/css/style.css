@@ -1,0 +1,51 @@
+.przycisk {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-bottom: 3px solid black;
+    width: 50px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    color: white;
+    font-size:20px;
+}
+
+div {
+    width: 260px;
+    height: 320px;
+    background-color: rgb(199, 157, 41);
+    padding: 18px;
+    margin: 0 auto;
+
+}
+
+input {
+    width: 81%;
+    margin-bottom: 11px;
+    background-color: #464444;
+    border: none;
+    height: 30px;
+    font-size: 18px;
+    padding: 3px 6px;
+    color: white;
+}
+
+#del {
+    width: 104px;
+    background-color: blue;
+}
+body{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#button_0{
+        width: 108px;
+}
+#button_rowna
+{
+    background-color: green;
+}

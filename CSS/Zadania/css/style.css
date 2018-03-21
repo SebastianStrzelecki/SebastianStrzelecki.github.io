@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+}
+
+/*zadanie 1*/
+
+#first {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+
+    position: relative;
+
+}
+
+#second {
+    height: 50%;
+    transform: translateX(50%);
+    width: 50%;
+    position: absolute;
+    background: yellow;
+    top: 25%;
+}
+
+/*zadanie 2*/
+
+.przycisk {
+    border-radius: 50%;
+    border-width: 0px;
+    border: 0px;
+    background: rgba(35, 138, 177, 0.88);
+
+}
+
+.przycisk i {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.przycisk i:hover {
+    color: green;
+
+}
+
+/*zadanie 3*/
+
+#tecza {
+    height: 300px;
+    width: 400px;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, violet);
+}
+
+/*zadanie 4*/
+
+video {
+    width: 100%;
+}
+
+/*zadnaie 5*/
+
+#zadanie5 li {
+    list-style-type: none;
+}
+
+#zadanie5 li:before {
+    font-family: "FontAwesome";
+    content: "\f066";
+    padding-right: 5px;
+
+}
+
+/*zadanie 6*/
+
+input {
+    font-family: cursive;
+    color: red;
+}
+
+input[type="text"]::placeholder {
+    color: orange;
+    font-family: cursive;
+}
+
+input[type="text"]:-ms-input-placeholder {
+    color: orange;
+    font-family: cursive;
+}
+input[type="text"]::-moz-placeholder { 
+  color: pink;
+}
+
+/*Zadanie 7*/
+
+a[href$='docx'] {
+    color: red;
+}
+
+a[href$='doc'] {
+    color: green;
+}
+
+/*zadanie 8*/
+
+q:lang(en),blockquote[lang*='en'] {
+    quotes: "*" "*";
+}
+blockquote::after{
+    content: "*";
+}
+blockquote::before{
+    content: "*";
+}
+q {
+    quotes: "'" "'";
+}
+blockquote::before{
+    content: "'";
+}
+blockquote::after{
+    content: "'";
+}
+/*zadanie 9*/
+
+footer {
+
+    width: 100%;
+    height: 30px;
+    background-color: rgba(162, 31, 31, 0.28);
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+}
+
+input {
+    font-family: cursive;
+}
+
+
+/*zadanie 10*/
+
+#parent{
+    height: 1024px;
+    width: 768px;
+    overflow:hidden;
+}
+#bg {
+    background-image: url("http://www.apicius.es/wp-content/uploads/2012/07/IMG-20120714-009211.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  
+}
+
+#bg:hover{
+    transform:scale(2);

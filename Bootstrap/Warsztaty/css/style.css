@@ -1,0 +1,305 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#nav-menu {
+    padding: 0px 10%;
+}
+
+#nav-menu a.navbar-brand {
+    font-family: 'Montserrant', 'sans-serif';
+    font-size: 2em;
+    color: white;
+}
+
+#nav-menu .nav-item a {
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrant', 'sans-serif';
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav-menu .nav-item a:hover {
+    color: #0ed86d;
+}
+
+#nav-menu.scroll .nav-item a:hover {
+    color: #777;
+}
+
+
+#bg-img p {
+    font-family: 'Roboto Slab';
+    color: white;
+    font-size: 33px
+}
+
+#bg-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header/pictures_on_the_wall.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#bg-img div p {
+    /*    line-height: 100px;*/
+}
+
+
+.scroll {
+    background-color: rgba(15, 221, 30, 0.5);
+}
+
+/*
+#text-bg{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+*/
+
+.row.text-center .col-4 p {
+    font-size: 10px;
+    color: black;
+}
+
+#text-bg {
+    position: absolute;
+    text-align: center;
+
+    top: 40%;
+    left: 34%;
+}
+
+#bg-img .read-more {
+    background-color: #0ed86d;
+    border: 1px solid #0ed86d;
+    font-family: 'Montserrant', sans-serif;
+    color: #fff;
+    transition: all .3s;
+    padding: 15px 30px;
+}
+
+#bg-img .read-more:hover {
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #0ed86d;
+}
+
+
+.container .row.text-center .col-12 h1 {
+    margin-top: 69px;
+}
+
+.container .row.text-center .col-12 p {
+    margin-bottom: 77px;
+    margin-top: 28px;
+    font-size: 13px;
+
+}
+
+.container .row .col-4 h2 {
+    margin: 20px;
+}
+
+#div-img {
+    height: 100%;
+    width: 100%;
+    background: url(../img/portfolio/box_of_cookies.jpg);
+}
+
+#services .container .row .fa {
+    font-size: 3em;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border: 1px solid #0ed8d6;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #0ed8d6;
+    transition: all .3s;
+    text-align: center;
+}
+
+#services .container .row .fa:hover {
+    color: #0ed8d6;
+    background-color: #fff;
+    transform: rotate(360deg);
+}
+
+
+#portfolio {
+    background-color: #f7f7f7;
+}
+
+#portfolio .portfolio-item {
+    background-color: #fff;
+}
+
+#portfolio .portfolio-image {
+    overflow: hidden;
+}
+
+#portfolio .portfolio-image .portfolio-image-background {
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: all .3s;
+}
+
+#portfolio .portfolio-image .portfolio-image-background:hover {
+    transform: scale(1.5);
+}
+
+#portfolio .portfolio-item .portfolio-image-background:hover .portfolio-image-mask {
+    opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-image-mask {
+    background-color: rgba(14, 216, 214, 0.85);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .3s;
+    color: white;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio .portfolio-item figcaption {
+    padding: 15px;
+}
+
+#pib1 {
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+
+#pib2 {
+    background-image: url(../img/portfolio/chaotic_paint.jpg);
+}
+
+#pib3 {
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
+
+#pib4 {
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+
+#pib5 {
+    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
+
+#pib6 {
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+}
+
+#team .img-circle {
+    border-radius: 50%;
+    width: 100%;
+}
+
+#team .social-link {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background-color: black;
+    border: 1px solid black;
+    display: inline-block;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.8em;
+}
+
+#team .social-link:hover {
+    background-color: #0ed8d6;
+    border: 1px solid #0ed8d6;
+    color: white;
+}
+
+#team p {
+    margin-top: 34px;
+}
+
+#team h2 {
+    margin-bottom: 20px;
+    font-size: 3em;
+    margin-bottom: 45px;
+}
+
+#contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/footer/world-map.jpg);
+}
+
+
+#contact .contact-form .contact-form-column {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#contact input:not([type='submit']),
+#contact textarea{
+    border: 0px solid;
+}
+
+
+#contact input[type='submit']{
+    background-color: #0ed8d6;
+    border: 1px solid #0ed8d6;
+    color: #fff;
+    transition: all .3s;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#contact input[type='submit']:hover{
+     background-color: #fff;
+    border: 1px solid #fff;
+    color: #0ed8d6;
+}
+
+#contact h2,
+#contact p{
+ color: #fff;   
+}
+
+#footer{
+    background-color: black;
+}
+#footer p{
+        display: inline-block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-right: 13px;
+}
+
+#footer .social-link {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background-color: black;
+    border: 1px solid black;
+    display: inline-block;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.3em;
+}
+
+#footer .social-link:hover {
+    background-color: #0ed8d6;
+    border: 1px solid #0ed8d6;
+    color: white;
+}

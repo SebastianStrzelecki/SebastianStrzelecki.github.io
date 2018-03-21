@@ -1,0 +1,27 @@
+body{
+    margin:0 0;
+    box-sizing: border-box;
+}
+
+
+
+.parallaxa{
+    background-image: url(http://www.tapeciarnia.pl/tapety/normalne/tapeta-gory-odbijajace-sie-w-jeziorze.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+.text{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 30px;
+    background-color: rgba(38, 60, 65, 0.88);
+}
+#second{
+    background-image: url("http://www.mega-tapety.info/wallpapers/krajobrazy/gory/tapety_na_pulpit_mega-tapety.info%20(216).jpg");
+}
+#third{
+     background-image: url("http://st.gde-fon.com/wallpapers_original/539945_goryi_orl_3d_art_1920x1200_www.Gde-Fon.com.jpg")
+}

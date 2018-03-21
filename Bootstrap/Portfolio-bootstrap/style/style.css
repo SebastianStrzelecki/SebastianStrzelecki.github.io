@@ -1,0 +1,368 @@
+/* general */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+h2 span {
+    color: limegreen;
+}
+
+section {
+    padding: 30px 50px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* nawigacja */
+
+#main-nav {
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    background-color: #FFFFFF;
+
+}
+#main-nav .toggle, [id="drop"]{
+    display: none;
+}
+
+#main-nav .menu {
+    margin: 0;
+    list-style-type: none;
+    text-align: right;
+    background-color: #fff;
+}
+
+#main-nav .menu .menu-item {
+    display: inline-block;
+    margin-right: 30px;
+    line-height: 50px;
+}
+
+#main-nav .nav-item  a {
+    text-decoration: none;
+    color: limegreen;
+}
+
+/*
+#main-nav .menu .menu-item a:hover {
+    color: #333333;
+}
+*/
+
+/* header */
+
+#main-header {
+    height: 80vh;
+    background: url('../img/header-background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#main-header .header-inner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+}
+
+#main-header .header-inner h1 {
+    font-size: 70px;
+}
+
+#main-header .header-inner h1 span {
+    color: lime;
+}
+
+#main-header .header-inner h1,
+#main-header .header-inner h2 {
+    font-weight: 100;
+}
+
+#main-header .header-inner h2 {
+    font-size: 40px;
+}
+
+/* about */
+
+#about {
+    text-align: center;
+    background-color: #F9FCFE;
+}
+
+#about figure,
+/*
+#about .about_info {
+    width: 50%;
+    float: left;
+    display: inline-block;
+    margin: 0;
+}
+*/
+
+#about figure img {
+    width: 50%;
+}
+
+/*
+#about > div p {
+    text-align: left;
+}
+*/
+
+
+
+
+#umiejetnosci h2 {
+    text-align: center;
+}
+
+#umiejetnosci p {
+    text-align: center;
+        padding-bottom: 40px;
+}
+
+#umiejetnosci h1 span {
+    color: lime;
+}
+
+#umiejetnosci div figure {
+    display: inline-block;
+
+}
+
+#umiejetnosci div {
+    padding: 50px 0px;
+    text-align: center;
+}
+
+
+#umiejetnosci figcaption {
+    text-align: center;
+}
+
+/*Section Portfolio - Start*/
+
+#portfolio h2{
+    text-align: center;
+}
+#portfolio #portfolio-item-1 {
+    background-image: url(../img/portfolio1.jpg)
+}
+
+#portfolio #portfolio-item-2 {
+    background-image: url(../img/portfolio2.jpg)
+}
+
+#portfolio #portfolio-item-3 {
+    background-image: url(../img/portfolio4.jpg)
+}
+
+#portfolio .portfolio-items {
+    text-align: center;
+    font-size: 0;
+}
+
+#portfolio .portfolio-items .portfolio-item {
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0px;
+/*
+    display: inline-block;
+    width: 33%;
+*/
+    position: relative;
+}
+
+#portfolio .portfolio-items .portfolio-item .item-mask {
+    background-color: rgba(42, 61, 79, 0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    font-size: initial;
+}
+
+#portfolio .portfolio-items .portfolio-item .item-mask:hover {
+    opacity: 1;
+}
+
+#portfolio .portfolio-items .portfolio-item .item-mask .item-content {
+    border: 1px solid #fff;
+    margin: 10px;
+    height: 330px;
+    position: relative;
+}
+
+#portfolio .portfolio-items .portfolio-item .item-mask .item-content .item-content-inner {
+    color: #fff;
+    position: absolute;
+    top: 50% transform: translateY(-50%);
+    right: 0;
+    left: 0;
+    padding: 5px;
+}
+
+#portfolio .portfolio-items .portfolio-item .item-mask .item-content .item-content-inner a {
+    color: #fff;
+}
+
+#portfolio .portfolio-items .portfolio-item .item-mask .item-content .item-content-inner a:hover {
+    color: #1ac056;
+}
+
+/*Section Portfolioa - Stop*/
+
+#adress,
+#formularz {
+    float: left;
+    display: inline-block;
+    width: 50%;
+}
+
+/*section contact- start*/
+
+#contact {
+    background-color: #213b50;
+    color: #fff;
+    overflow: hidden;
+}
+
+
+
+#contact .contact-data h2 {
+    text-align: left;
+    font-size: 38px;
+}
+
+#contact .contact-data adress {
+    font-style: normal;
+    margin: 72px 0;
+    line-height: 25px;
+}
+
+#contact .contact-data adress a {
+    color: #1ac056;
+}
+
+#contact .contact-data .contact-social-icons a {
+    display: inline-block;
+    color: #fff;
+    height: 38px;
+    width: 38px;
+    text-align: center;
+    line-height: 38px;
+    border: 1px solid #fff;
+    margin-right: 30px;
+    font-size: 22px;
+}
+#contact .contact-data{
+    padding: 60px;}
+#contact .contact-data .contact-social-icons a:hover {
+    color: #213b50;
+    border: 1px solid #213b50;
+    background-color: #fff;
+}
+
+#contact .contact-form {
+    margin-top: 100px;
+}
+
+#contact .contact-form form input,
+#contact .contact-form form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #2b4a64;
+    border: #2b4a64;
+    color: #fff;
+}
+
+#contact .contact-form form input:focus,
+#contact .contact-form form textarea:focus {
+    background-color: #426684;
+
+}
+
+#contact .contact-form form input[type="submit"] {
+    background-color: #1ac056;
+    color: #fff;
+    width: auto;
+    text-transform: uppercase;
+    float: right;
+    padding: 15px 30px;
+    border: 1px #1ac056 solid;
+}
+
+#contact .contact-form form input[type="submit"]:hover {
+    background-color: #fff;
+    color: #1ac056;
+}
+
+footer {
+    background-color: #142634;
+    color: #fff;
+    padding: 0 80px;
+
+}
+
+footer p {
+    margin: 0px;
+}
+
+
+/*section contact-stop*/
+
+@media all and (max-width:1200px) {}
+
+@media all and (max-width:992px) {}
+
+@media all and (max-width:768px) {}
+
+@media all and (max-width:576px) {
+
+    #about figure img {
+        width: 83%;
+    }
+    h2 {
+        text-align: center;
+    }
+    #portfolio .portfolio-items .portfolio-item {
+        width: 100%;
+
+    }
+
+
+    #contact .contact-data {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    #contact .contact-data h2 {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    #contact .contact-form {
+        width: 100%;
+        float: none;
+        margin-top: 10px;
+    }
+
+}
