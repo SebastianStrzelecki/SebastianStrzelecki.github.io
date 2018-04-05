@@ -43,7 +43,6 @@
     z-index: 999;
     width: 100%;
     height: 50px;
-    background-color: red;
 }
 
 #main-image .text {
@@ -81,7 +80,9 @@
 #header-projects .text-projects-header{
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
 }
 
 
@@ -92,6 +93,8 @@
     top: 0%;
     /*            left: 50%;*/
     opacity: 0;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
     height: 100%;
     width: 92%;
@@ -136,6 +139,8 @@
     border-radius: 200px;
     background-color: #ffffff9e;
     opacity: 0.8;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
     transition: all 0.4s;
 }
 
@@ -155,6 +160,8 @@
     top: 100%;
     left: 5%;
     opacity: 0;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
     transition: all 0.4s;
 
 }
@@ -164,6 +171,8 @@
     top: 60%;
     left: 5%;
     opacity: 1;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
     transition: all 0.4s;
 
 }
@@ -190,7 +199,9 @@
     z-index: 22;
     top: 50%;
     right: -5%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
     text-align: justify;
 }
 #reference .refImg{
@@ -211,21 +222,6 @@
     width: 70%;
 }
 */
-
-
-
-
-*/
-
-
-
-
-
-
-
-
-
-
 
 
 .text {
