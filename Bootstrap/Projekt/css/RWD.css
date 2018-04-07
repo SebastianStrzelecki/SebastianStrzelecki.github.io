@@ -4,6 +4,14 @@
     #main-image .carousel-text {
         width: 100%;
     }
+      #header-projects .img-container-header {
+    right: 0px;
+    width: 100%;
+}
+      #header-projects{
+        padding-top: 40px;
+        height: 255px !important;
+    }
 
 }
 
@@ -12,13 +20,40 @@
     #main-image .carousel-text {
         background-color: rgba(255, 255, 255, 0.6);
     }
+    #header-projects{
+        padding-top: 40px;
+        height: 320px;
+    }
+    #header-projects .img-container-header {
+    right: 0px;
+    width: 100%;
+}
+    
+    
+    
+#reference .refImg {
+        width: 100%;
+    }
+    #reference .refText {
+        right: 0%;
+        position: static;
+        top:0%;
+        width: 100%;
+        -webkit-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        transform: translateY(0%); 
+        
+    }
+    #reference .row{
+        position: static;
+    }
 
 
 }
 
 @media (max-width: 1200px) {
     #reference .refImg {
-        width: 85%;
+        width: 100%;
     }
     #reference .refText {
         right: 0%;
