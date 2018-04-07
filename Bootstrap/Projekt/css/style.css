@@ -78,6 +78,13 @@ body {
     padding-top: 70px;
     height: 485px;
 }
+#header-projects .bg-img{
+        background-image: url(../img/shaft-1745933_960_720.jpg);
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 #header-projects .img-container-header {
     right: 5%;
@@ -292,10 +299,12 @@ body {
     background-color: #ffffff3d;
 
 }
-
+#contact .row{
+    margin: 30px;
+}
 #contact .contact-text {
     text-align: center;
-    margin: 30px;
+    margin: 30px 0px;
 }
 
  #map {
