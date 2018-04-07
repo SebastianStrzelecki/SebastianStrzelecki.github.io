@@ -1,0 +1,27 @@
+@media (min-width: 576px) {}
+
+@media (max-width: 768px) {
+    #main-image .carousel-text {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+    #main-image .carousel-text {
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+
+
+}
+
+@media (max-width: 1200px) {
+    #reference .refImg {
+        width: 85%;
+    }
+    #reference .refText {
+        right: 0%;
+    }
+
+}
