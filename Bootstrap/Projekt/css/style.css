@@ -297,3 +297,8 @@ body {
     text-align: center;
     margin: 30px;
 }
+
+ #map {
+        height: 400px;
+        width: 100%;
+      }
