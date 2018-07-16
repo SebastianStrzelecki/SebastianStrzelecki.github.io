@@ -331,3 +331,16 @@ body {
         height: 400px;
         width: 100%;
       }
+
+
+/*bootstrap*/
+.carousel-control-prev{
+    left: -50px;
+}
+.carousel-control-next{
+    right: -50px;
+}
+#project .project-img{
+    height: 70vh;
+    width: auto;
+}
