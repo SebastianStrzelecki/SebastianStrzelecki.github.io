@@ -138,6 +138,11 @@ body {
     width: 92%;
 }
 
+#main-projects .description{
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
 #main-projects .col:hover .text-img {
     opacity: 1;
     background-color: rgba(61, 12, 12, 0.52);
