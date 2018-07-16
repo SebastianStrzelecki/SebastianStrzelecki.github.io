@@ -49,6 +49,8 @@
         width: 100%;
     }
     #reference .refText {
+        background-color: #f4f4f4d6;
+        color: black;
         right: 0%;
         position: static;
         top: 0%;
