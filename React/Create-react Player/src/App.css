@@ -1,0 +1,83 @@
+body{
+    font-family: "Verdana", cursive, sans-serif;
+   
+}
+::-webkit-input-placeholder{
+    color:black;
+}
+:-ms-input-placeholder{
+    color:black;
+}
+::-ms-input-placeholder{
+    color:black;
+}
+::placeholder{
+    color:black;
+}
+.TitleHeader h1{
+    text-align: center;
+}
+.filter{
+    padding-top: 40px;
+    top: 0; right: 0; bottom: 0; left: 0; margin: auto; 
+    width: 300px;
+    border: 3px solid #462e2e30;
+    border-radius: 20px;
+    background: #2abb49;
+    
+}
+.filter input{
+    width: 100%;
+    background-color: #462e2e30;
+     border: none;
+    font-size: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-left: 10px;
+    
+}
+.filter .validation
+{
+    color: red;
+    font-size:12px;
+    display: block;
+    text-align: center;
+}
+.filter input:focus {
+    
+    outline: none;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.filter p{
+    text-align: center;
+}
+.filter ul{
+   text-align: center;
+    padding: 0;
+}
+.filter ul li{
+    list-style: none;
+    letter-spacing: 1.5px;
+   
+}
+.filter  .add{
+    width: 80%;
+    font-family: inherit;
+}
+.filter button{
+    font-family: inherit;
+    width: 20%;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    color:white;
+    background-color: #085415;
+}
+.filter button:focus {
+     outline: none;
+}
+.filter button:hover{
+    background-color: #03330b;
+    border: none;
+}
