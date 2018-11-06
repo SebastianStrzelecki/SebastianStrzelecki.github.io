@@ -1,0 +1,76 @@
+body {
+    font-family: "Verdana", cursive, sans-serif;
+
+}
+
+::-webkit-input-placeholder {
+    color: #00000059;
+}
+
+:-ms-input-placeholder {
+    color: #00000059;
+}
+
+::-ms-input-placeholder {
+    color: #00000059;
+}
+
+::placeholder {
+    color: #00000059;
+}
+
+.TitleHeader h1 {
+    text-align: center;
+}
+
+.filter {
+    padding-top: 40px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 300px;
+    border: 10px solid #462e2e30;
+    border-radius: 10px;
+    background: #980404c7;
+}
+
+.filter input {
+    width: 100%;
+    background-color: #462e2e30;
+    border: none;
+    font-size: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.filter input:focus {
+    outline: 2px solid #900000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.filter p {
+    text-align: center;
+}
+
+.filter ul {
+    text-align: center;
+    padding: 0;
+}
+
+.filter ul li {
+    list-style: none;
+    letter-spacing: 1.5px;
+
+}
+
+.filter .add {
+    width: 100%;
+    font-family: inherit;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
