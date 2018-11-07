@@ -1,0 +1,12 @@
+.navigation ul{
+    display: flex;
+    justify-content: center;
+}
+.navigation ul li {
+    display: block;
+    padding: 0px 10px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    font-size: 1.2em;
+}
